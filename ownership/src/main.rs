@@ -88,7 +88,7 @@ fn mutable_ref_3(){
     let y: &mut i32 = &mut x;
 
     *y += 1;
-    
+
     // Rust's borrow checker will detect that x has a mutable reference y pointing to it, 
     //and you cannot have immutable (non-mutable) references alongside a mutable reference 
     //to the same data in the same scope. This restriction is in place to prevent data races.
