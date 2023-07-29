@@ -27,9 +27,9 @@ mod outer_module {
     pub mod inner_module {
         // function within nested module
         pub fn my_public_function() {
-        println!("Hi, I got into the public function of inner module");
-        println!("I'll invoke private function of outer module");
-        super::my_private_function();
+            println!("Hi, I got into the public function of inner module");
+            println!("I'll invoke private function of outer module");
+            super::my_private_function();
         }
     }
     // call the function

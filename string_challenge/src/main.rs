@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 fn main() {
     let my_str = "This is a comprehensive course in Rust programming 
     language on the Educative. Read it with full concentration 
